@@ -1,0 +1,144 @@
+
+%-------------------------------------%
+%
+% Load Git VCS bits for usage see header
+% and footer configuration below
+%
+%-------------------------------------%
+\immediate\write18{sh ./vc}
+\input{vc}
+
+%-------------------------------------%
+%
+% Basic document configuration
+%
+%-------------------------------------%
+\documentclass{book}
+\usepackage[a4paper, top=3cm, bottom=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{tocloft}
+
+% ------------------------------------%
+%
+% Configure headers and footers
+%
+%-------------------------------------%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lfoot{Git Rev: \VCRevision}
+\cfoot{\thepage}
+\rfoot{Date: \GITAuthorDate}
+
+%-------------------------------------%
+%
+% End document configuration
+%
+%-------------------------------------%
+
+\begin{document}
+
+%-------------------------------------%
+%
+% Book title
+%
+%-------------------------------------%
+\title{\textbf{Cloud Confindential}}
+\date{}
+\author{Matt Jones}
+
+% 1st page for the Title
+\maketitle
+
+% 2nd page, thanks message
+%-------------------------------------------------------------------------------
+\thispagestyle{empty}
+\thanks{}
+\newpage
+
+%-------------------------------------%
+%
+% Chapter configuration
+%
+%-------------------------------------%
+
+%\pagestyle{fancy}
+%\pagenumbering{arabic}
+%\doublespacing
+
+%-------------------------------------%
+%
+% Preface
+%
+%-------------------------------------%
+
+\chapter*{Preface}
+
+% If the chapter ends in an odd page, you may want to skip having the page
+% number in the empty page
+\newpage
+\thispagestyle{empty}
+
+%-------------------------------------%
+%
+% Start chapters
+%
+%-------------------------------------%
+
+\chapter{}
+
+1
+
+\chapter{}
+
+2
+
+\chapter{}
+
+3
+
+\chapter{}
+
+4
+
+\chapter{}
+
+5
+
+\chapter{}
+
+6
+
+\chapter{}
+
+7
+
+\chapter{}
+
+8
+
+\chapter{}
+
+9
+
+\chapter{}
+
+10
+
+%-------------------------------------%
+%
+% ToC
+%
+%-------------------------------------%
+%\newpage
+% Include dots between chapter name and page number
+%\renewcommand{\cftchapdotsep}{\cftdotsep}
+%Finally, include the ToC
+%\tableofcontents
+
+\end{document}
+
