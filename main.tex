@@ -1,0 +1,343 @@
+
+%-------------------------------------%
+%
+% Load Git VCS bits for usage see header
+% and footer configuration below
+%
+%-------------------------------------%
+\immediate\write18{sh ../scripts/vc}
+\input{vc}
+
+%-------------------------------------%
+%
+% Basic document configuration
+%
+%-------------------------------------%
+\documentclass{article}
+\usepackage[a4paper, top=3cm, bottom=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage[colorlinks=true]{hyperref}
+
+% ------------------------------------%
+%
+% Configure headers and footers
+%
+%-------------------------------------%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lfoot{Git Rev: \VCRevision}
+\cfoot{\thepage}
+\rfoot{Date: \GITAuthorDate}
+
+%-------------------------------------%
+%
+% End document configuration
+%
+%-------------------------------------%
+
+\begin{document}
+
+%-------------------------------------%
+%
+% Article title
+%
+%-------------------------------------%
+\title{\textbf{NDA STEAM Initiative}}
+\date{\today}
+%\author{Matt Jones}
+
+% 1st page for the Title
+\clearpage\maketitle
+\thispagestyle{empty}
+\newpage
+
+%-------------------------------------%
+%
+% Article
+%
+%-------------------------------------%
+
+% mission statement
+\section*{Mission Statement}
+The NDA STEAM Initiative seeks to provide the skills, tools and inspiration to elementary and middle school students for exploring and creating engineering projects and art. The focus is on providing the guidance and resources necessary for self-directed learning, enabling students of all backgrounds and abilities to reach their personal goals.
+
+% what is steam
+\section*{What is STEAM}
+Before we can talk about STEAM education we must define what it is. In simple terms is consists of Science, Technology, Engineering, Arts, and Math educational topics. It differs from the traditional and more widely discussed STEM by including topics and activities that may be considered outside of a traditional engineering program but that many feel are essential to both wider adoption and a higher degree of preparedness for the future job markets. 
+
+These topics include drafting, fashion design among many others. While not as glamorous as designing a bridge, or working on the Space program, many professionals will agree that the skills represented by these and other topics are in heavy use across many traditional technology fields. A brief search of TED Talks where \href{https://tedxinnovations.ted.com/2016/08/26/eight-tedx-talks-that-are-always-in-fashion/}{fashion and technology} meet is all that is needed to show young girls that this is not just a boy thing.
+
+The ideal way to describe STEM vs STEAM is to look at the flourishing \href{https://www.theatlantic.com/business/archive/2016/06/why-the-maker-movement-matters-part-1-the-tools-revolution/485720/}{Maker} revolution that has spawned an entire culture, touching all corners of our daily lives. While STEM has gotten much of the press and exposure, STEAM should be the real focus and major companies are starting to understand this and incorporate it into their programs. Ford Motor Company's \href{https://campaign-social.ford.com/content/campaign/ford-steam/index.html}{STEAM Experience} has been a driving force for several years and can be considered a model for other major manufacturers. While it is more STEM focused Intel has several \href{http://www.intel.com/content/dam/www/program/education/us/en/documents/stem-resources-k12-educators.pdf}{resources} dedicated to STEM education that should be closely examined as well.
+
+% current state of after school enrichment at the middle school level
+\section*{Current STEM Enrichment Programs}
+While NDA does currently promote a \href{http://www.ndatyngsboro.org/lower/stem}{STEM approach} to learning, there are several enhancements that could be made to the after school enrichment programs. Currently NDA offers a \href{http://www.ndatyngsboro.org/activities-camp/tech-kids}{Tech Kids} program which strives to build a solid technology foundation for the students. While the goals and aim are well thought-out and executed within the realm of available resources, more needs to be done in order to remain competitive within both the local surrounding community and other programs offered at comparable private institutions. 
+
+The 2016/2017 academic year has seen strong strides towards this with a reboot of many existing programs and the addition of a new one. A solid showing at the regional \href{https://www.firstinspires.org/robotics/fll}{First Lego League} competition in December was the highlight of the fall. While the team didn't advance, we improved our overall rank by 37\% year over year and the presentation skills and team cohesion were specifically mentioned as being strong. The Snap Circuits program, geared towards the younger kids, was rebooted as well in the spring with a focus on learning general STEAM concepts including following published directions and critical thinking.
+
+The spring also saw the introduction, by popular consensus among involved parents, of a programming course designed to teach Python. After a slow start the program has developed excitement among the participants as the method decided to teach this language was through developing a text based game. While teaching Python is the focus, there is also a strong emphasis on other valuable skills that can be transfered elsewhere including writing, critical thinking, and group work.
+
+% current state of surronding schools programs at the middle school level
+\section*{Other Local Programs}
+
+There are several schools and programs in the surrounding area that have already partially or fully adopted STEM programs. A few of these have also incorporated art to some degree but there is yet a comprehensive blended learning curriculum that moves from kindergarten through to eighth grade. Many programs either focus on only the elementary schools, leaving the middle school students to take what they have been given and try to forge their own path, or they are not a true blended program that teaches STEM and then applies them to all aspects of learning and educational topics.
+
+\subsection*{STEM Academy}
+The \href{http://stem.lowell.k12.ma.us/pages/EN_Rogers}{STEM Academy} at The Edith Nourse Rogers School in Lowell offers a program geared towards grades PreK - 5. The Lowell Sun has an \href{http://www.lowellsun.com/todaysheadlines/ci_26622390/lowell-youngsters-embracing-stem}{article} describing parts of the program that provide a general idea but NDA could take these steps further if a full school program were to be adopted at a later date by continuing to introduce some aspects of project based learning.
+
+\subsection*{Innovation Charter}
+\href{http://www.innovationcharter.org/}{Innovation Charter} school in Tyngsboro adopts a blended learning style but also incorporates a different educational philosophy known as \href{http://www.innovationcharter.org/about-iacs/systems-thinking/}{Systems Thinking}. There is much NDA could learn from this, but a philosophy like this would take a strong concerted effort by all educators over an extended period of time. The \href{http://www.ndatyngsboro.org/lower/reach}{REACH} program is a great start towards a more advanced and inclusive educational philosophy and should be built upon and enhanced where it makes sense to. Enrichment could adopt much of \textit{Systems Thinking} style more rapidly and in effect serve as a proving ground for some of the principles.
+
+The programming and snap circuits programs have already utilizing the project based learning approach and have so far seen high and prolonged engagement among active participants. Parents that have witnessed these sessions have also expressed interest in this style of learning at a small scale in the after school programs.
+
+\subsection*{Tyngsboro Public Schools \textit{(TPS)}}
+
+\href{http://www.tyngsboroughps.org/pages/Tyngsborough}{TPS} has no concerted STEM classroom program but focuses more on traditional and proven learning styles. The after school enrichment programs are continually updated and therefore current information on them is sparse. There is however a wonderful summer experience that NDA could certainly emulate and build off of. The \href{http://tes.tyngsboroughps.org/files/_ZGCSx_/3c999668dcbe59b83745a49013852ec4/2017SummerAdventure.pdf}{Camp Invention} is a wonderful program that meets or exceeds the goals of a traditional STEM program.
+
+Currently a \href{http://www.ndatyngsboro.org/activities-camp/tech-camp}{technology week} at the NDA campus is in the planning process. While it will not fully compare with the offering at TPS it will serve as an initial foray. Plans are already being considered for the 2018 program which will directly compliment the 2017 TPS program. There is no desire to compete, rather complimenting and working together towards a common educational goal should be the focus.
+
+
+% purposal for after school programs
+\section*{The NDA Enrichment STEAM Initiative}
+Several programs have already been either rebooted or implemented in the 2016/2017 academic year as first time programs but there is considerable more still to be done with greater, sustainable resources. 
+
+The enrichment programs below are all currently slated for the 2017/2018 school year and will be designed from the outset to tie directly into the purposed curriculum for that level as well as introduce common STEAM concepts. Faculty and subject matter consultants will both be drafted to ensure the highest quality is presented and maintained.
+
+A major focus of this initiative will be a re-branding of the following list of programs under the title \textbf{NDA STEAM Initiative}. This will serve to unify them with common goals, resources, staffing, and to provide a clear path for progression as the students advance. These programs may continue as well under their current name but when referenced under the STEAM umbrella the focus will be clear and concise.
+
+\begin{itemize}
+  \item \href{http://www.ndatyngsboro.org/activities-camp/tech-kids}{Tech Kids}
+  \item \href{http://www.ndatyngsboro.org/activities-camp/science-club}{Science Club}
+  \item \href{http://www.ndatyngsboro.org/activities-camp/snap-circuits}{Snap Circuits/Intro to Robotics}
+  \item \href{http://www.ndatyngsboro.org/activities-camp/first-lego}{First Lego League \textit{(FLL)}}
+\end{itemize}
+
+Additionally new programs can be added later allowing the creation of tracks that a student may follow. Some may choose a programming track and wish to concentrate on that aspect, others may be more mechanically inclined and wish to focus on a mechanical/electrical/computer engineering track. Others may still wish to follow a design track and wish to learn about drafting or schematics. Students will always be free to explore other areas of interest at will.
+
+%programs
+\subsection*{Kid Code}
+\textbf{Ages:} 4 - 6 \textit{or} \textbf{Grade Level:} 1 -2
+\begingroup
+    \fontsize{10pt}{12pt}\selectfont
+    \begin{verbatim} 
+This club will use the iPads provided by the school to work on technology skills through
+various age appropriate games and coding puzzles. All grades will also have an 
+opportunity to work with the desktop computers as well. In this digital age, allowing 
+your child a safe environment to explore aspects of technology is key. During their 
+hour of tech time, children will be monitored by staff and directed to specific games 
+and activities that are age appropriate. (src: NDA Site)
+    \end{verbatim} 
+\endgroup
+
+\subsection*{Science Club}
+\textbf{Grade Level:} 1 -2
+
+The name for this is still TBD but the prime focus would be on experiments that directly relate to common engineering problems seen in the field. Care will be taken to perform the experiment but also explain the root cause of the technical challenge, who performed/discovered/contributed to the solution, and how it impacts us today. This will be done in an age appropriate manner that the kids can respond to and be encouraged to explore further. Each week will have a specific topic and experiment.
+
+Experiments may include topics such as 
+\begin{itemize}
+    \item aerodynamics
+    \item fluid dynamics
+    \item chemical engineering
+    \item structural engineering
+\end{itemize}
+
+This program is still TBD and under consideration.
+
+\subsection*{Snap Circuits}
+\textbf{Grade Level:} 3 - 5
+\begingroup
+    \fontsize{10pt}{12pt}\selectfont
+    \begin{verbatim} 
+Snap Circuits is a fun and exciting way to learn about electronics and electricity.  
+This program takes students with little understanding of electronics and teaches them
+ using the "Learn by Doing" concept. This proven technique makes learning fun and 
+ easy.
+
+As students learn about electronics they will build projects using Snap Circuits 
+components. These projects allow students to put what they have learned to use.  
+As more projects are completed, students begin to imagine how to implement the skills
+ they've learned and will better understand the electronics we use in our day-to-day
+ lives.
+
+Throughout the program students learn about electricity, energy, project design and 
+building, troubleshooting, and how to use industry tools.  As the students’ skills 
+improve, their confidence will grow along with their understanding of the world we 
+live in.  Many students find a love of electronic technology that will be a part of 
+them for the rest of their lives.  (src: NDA Site)
+\end{verbatim}
+\endgroup
+
+\subsection*{Introduction to Electronics}
+\textbf{Grade Level:} 6 - 8
+
+This would be an introductory programs that seeks to give kids a solid base for electronics using projects and experiments that they can easily understand and safely perform by themselves. Much of the material for this program will come directly from \textit{\href{http://www.charlespetzold.com/code/}{Code: The Hidden Language of Computer Hardware and Software}} as is is a simple and easy to follow book that can be adapted into age specific projects that provide deep technical foundations. This program will teach drafting and design skills, assembly and instruction following skills, teamwork, and basic troubleshooting skills. It will be considered the \href{http://edglossary.org/capstone-project/}{Capstone project} of the STEAM mechanical/engineering track.
+
+Example projects may include:
+\begin{itemize}
+  \item building a small scale working wired telegraph and using it to send and receive messages in Morse Code across the school
+  \item building a small scale scrolling led sign 
+  \item building a small scale calculator
+\end{itemize}
+
+Much of the initial design and building will be led by the instructor and projects will be provided as semi-complete kits that the students can then assemble during the program. Each six week cycle will have a separate project that the kids will then be able to proudly showcase at an NDA Science Fair, Parents Night, or general Open House event.
+
+\subsection*{Programming with Python}
+\textbf{Grade Level:} 6 - 8
+
+This will be an introductory program that will use game development to teach the python programming language using OSX. Students will start each six week cycle by learning about code design and what happens before you even write code. For returning students they will have the ability to continue on with the previous sessions project or explore more advanced topics at their discretion. The focus of the program will be to design and implement a simple text based adventure game similar to \href{https://en.wikipedia.org/wiki/Colossal_Cave_Adventure}{Colossal Cave Adventure}, an early Unix game.
+
+This will teach them simple programming concepts such as flow control using conditionals, accepting user input and acting upon it, printing output to a screen, and basic debugging. This would be considered the \href{http://edglossary.org/capstone-project/}{Capstone project} for the programming track and could be showcased at NDA events. 
+
+The elegant construct about using this as a teaching tool is that each session can simply build upon the previous sessions work, designing additional locations for the cave, or working on expanding the capabilities of existing locations, as the program grows over time, so will the game!
+
+Currently this idea is implemented and the design, structure, and implementation of the program is being refined in a continual and open feedback loop with the participating students.
+
+\subsection*{Open STEAM Topic}
+There will be an open sign-up each six week session that will allow students to pick their own project or idea that they would like to explore. Guidelines, requirements, and general topics are TBD. 
+
+This program may be structured one of two ways. The first would allow a max of five students to each be working on there own project with the goal of producing a research paper or physical item showcasing their chosen topic. Individual guidance will be provided by the instructor to each student along the way. The other proposed structure would be a topic dictated by several students to a max of five, wanting to work on a similar topic. Together they would produce a paper or physical item as a showcase of their idea. Instructor guidance will be provided along the way.
+
+With either route, extreme care will be taken to treat the student(s) in a professional manner, with the understanding that they may fail the project through no fault of their own and that as long as they learned something about the topic they should consider it a success. The core tenet of this program will be a quote by Thomas Edison. When he was asked how did it feel to fail over a thousand times \textbf{``I didn’t fail 1,000 times. The light bulb was an invention with 1,000 steps."}. This will be as much about teaching hard skills as it will about teaching that failure is always an option and that in the real world of engineering, a much more likely outcome that is to be learned from rather than shamed.
+
+\subsection*{First Lego League \textit{(FLL)}}
+\textbf{Grade Level:} 4 - 8
+\begingroup
+    \fontsize{10pt}{12pt}\selectfont
+    \begin{verbatim} 
+FIRST LEGO League is a robotics program for 9-14 year olds, designed to get children 
+excited about science and technology, and teach them valuable employment and life skills.
+
+Teams of up to ten children, with one adult coach, participate in the Challenge by 
+programming an autonomous robot to score points on a themed playing field (Robot Game), 
+developing a solution to a problem they have identified (Project), all guided by the FLL 
+Core Values. The Academy teams will be attending an official tournament, hosted by one 
+of our FIRST LEGO League Partners either in Massachusetts or New Hampshire.   (src: NDA Site)
+\end{verbatim}
+\endgroup
+
+\textbf{The competitive team has a cap of ten students and attendance by both the prospective student and parent(s) at an informational night is required for sign-up due to the highly competitive nature of the program.}
+
+ For students that wish to not compete but simply explore Lego robotics a non-compete program may also be offered with unrestricted access based upon instructor availability and student interest. Every effort will be made to not deny a child entry to the program but the competitive nature means actual team inclusion is not automatic.
+
+% proposal for the 2017 summer camp
+\section*{2017 Summer Camp Program}
+The full camp program has yet to be determined but the following topics are under consideration. Final topic and project selection will be made by the first week of April.
+
+\begin{itemize}
+\item snap circuits
+\item rc cars
+\item python programming
+\item lego mindstorm
+\item lego (general)
+\item adafruit basic kits
+\item technology exploration
+\end{itemize}
+
+% proposal for the 2018 summer camp
+\section*{2018 Summer Camp Program}
+TBD
+
+\newpage
+%budget
+\section*{ Enrichment Budget}
+The following budget should be considered a work-in-progress at this time additions or subtractions may be made as programs and available funds are finalized. The final budget request can be expected by the second week in April.
+
+Summer camp expenses are not included in this budget although materials listed here should be considered available for usage if needed.
+
+\subsection*{Expenses}
+
+\begin{table}[bh]
+\begin{tabular}{ lp{3cm}lllrr }
+Item & Description & Supplier & Quantity & Yearly & Unit Cost & Total Cost \\
+\hline
+3d Printer & 3d Printer & Adafruit& 1 & No & \$450 & \$450 \\
+3d Printer Ink & 3d Printer Ink  & Adafruit   & 2  & Yes & \$50 &  \$100 \\  
+AA Batteries &   Batteries &  Staples & 1 &  Yes & \$100  &  \$100 \\   
+Books  & Program Specific  &    & 1 &  Yes & \$200  &  \$200    \\
+Bookshelf  & Storage &  Ikea  &  1 &  No  & \$69 & \$69 \\
+Computer Speakers &  Project Speakers &  Amazon&  2 &  No & \$10 & \$20 \\
+Drafting Supplies  &  &  Staples & 1 &   Yes & \$100 &   \$100  \\  
+Electronics Books &  Various Books  & &    1 &  Yes & \$100 &   \$100    \\
+Electronic Kit&  Basic Starter Kit &  Adafruit  &  2 &  No & \$70 & \$140  \\
+Electronic Supplies& Replacement Parts &  Adafruit &   1 &  Yes& \$50 & \$50 \\
+Electric Top Shelf & Power Rail& ULine &  1  & No & \$176 &   \$176  \\
+FLL Laptop & For offsite usage &Dell  &  1&  No  & \$500 &   \$500    \\
+FLL Registration  &  FFL Fee  &Lego  &  1 &  Yes & \$300   & \$300  \\  
+FLL Supplies &   Lego Supplies  & Lego   & 1  & Yes & \$200  &  \$200    \\
+FLL Team Shirts& FFL Team Shirts &      &&    Yes         \\
+General Storage& For large items&NDA&3 &  No          \\
+Multimeter & Component Testing & Adafruit  &  1 &  No & \$60 & \$60 \\
+Power Outlets &  15amp outlets&    NDA &  &  No          \\
+RC Cars& RC Cars&    &    2   &Yes& \$50 & \$100    \\
+Rolling Cart   & FFL offsite Cart &  ULine  & 1 &  No & \$119  &  \$119    \\
+Safety Equipment &   & Home Depot   & &  Yes         \\
+Storage Bins   & Shelf Unit w/ bins  &  ULine  & 2 &  No & \$170  &  \$340    \\
+Storage Cabinet& For Parts  & ULine  & 1  & No & \$125   & \$125    \\
+Whiteboard 3’ x 2’&  For designs &   ULine &  2  & No&  \$42& \$84\\ 
+Whiteboard 6’ x 4’ & For designs  &  Uline  & 1 &  No & \$175 &   \$175   \\ 
+Workbench &  Project Bench & ULine &  3 &  No&  \$201  &  \$603   \\ 
+Workspace  & Facilities  &NDA &1  & Yes& \$500  &  \$500   \\ 
+\hline
+& & & \\
+Total Inception Cost     &    & & & & &            \$4,611.00   \\
+Total Yearly Cost         &   & & & & &       \$1,750  \\
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\subsection*{Funding}
+
+This is a list of confirmed donations towards the STEAM Initiative. The primary goal when soliciting funds is to create a sustainable yearly source that can be relied upon. 
+
+Although unlikely in the 2017/2018 program year, at the soonest possible time all material costs should be funded solely via outreach and community donations so that minimal or no cost is passed on to the students. 
+
+Currently separate from this list will be a yearly donation of \$500US to provide families experiencing hardship assistance with access to the program and any costs incurred. A separate process for determining the validity of this assistance will be created as a condition of its existence. If it is not used then it will be rolled over for use towards program capital expenses to be determined jointly by the doner and school administration.  Further details of this are TBD between the doner and the school administration and should be considered confidential.
+
+\begin{table}[bh]
+\begin{tabular}{ lllllrr }
+Source & Description & Origin & Designation & Yearly & Amount \\
+\hline               
+Alpine Butcher& Raffle Item & Community Outreach  &  General STEAM  & Yes & \$129 \\
+Private Doner &  Cash  &  Community Outreach  &  General &  Yes & TBD \\
+Git Tower  & Software Licenses &  Community Outreach  &  Programming & Yes & \$0 \\
+Jet Brains & Software Licenses  & Community Outreach  &  Programming & Yes & \$0 \\
+Private Doner  & Cash   & Parent  & General  & Yes & \$500 \\
+Polished Man &  Cash  &  Community Outreach &  General &  Yes & \$100 \\
+Corporate Doner &  TBD   &  Community Outreach   &     General & No &TBD \\     
+\hline                    
+      &&& \\                      
+Total Donations & & & &      &           \$729 \\
+Total Yearly Donations    &&&&&              \$729 \\
+
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+% closing (restate goals)
+\section*{}
+
+
+
+%-------------------------------------%
+%
+% ToC
+%
+%-------------------------------------%
+%\newpage
+% Include dots between chapter name and page number
+%\renewcommand{\cftchapdotsep}{\cftdotsep}
+%Finally, include the ToC
+%\tableofcontents
+
+\end{document}
+
